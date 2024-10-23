@@ -1,6 +1,17 @@
+/* 
+purple: #868CC5
+light purple: #D2D7FF
+tan: #CFC9C1
+light tan: #DFDFDF
+dark blue: #221F55
+blue: #2C409A
+lighter blue: #3853A4
+*/
+
 body {
     font-family: "larken", sans-serif;
     font-weight: 100;
     font-style: normal;
-    background-color: #868CC5;
+    color: #221F55;
+    background-color: #DFDFDF;
 }
