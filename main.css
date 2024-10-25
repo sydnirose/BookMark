@@ -19,12 +19,20 @@ font-style: normal;
 
 */
 
+/* HEADINGS/SUBHEADINGS */
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+/* BODY */
 body {
     font-family: "larken", sans-serif;
     font-weight: 100;
     font-style: normal;
     color: #221F55;
     background-color: #DFDFDF;
+    margin: 0px 30px;
 }
 
 p {
@@ -32,3 +40,33 @@ p {
     font-weight: 400;
     font-style: normal;
 }
+
+/* NAV */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    font-family: "americane", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li a {
+    display: block;
+    color: #221F55;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: #3853A4;
+  }
