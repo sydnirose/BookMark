@@ -21,7 +21,7 @@ font-style: normal;
 
 /* HEADINGS/SUBHEADINGS */
 h1 {
-    font-size: 100px;
+    font-size: 70px;
     margin: 0;
 }
 
@@ -32,27 +32,34 @@ body {
     font-style: normal;
     color: #221F55;
     background-color: #DFDFDF;
-    margin: 0px 30px;
+    margin: 0px 50px;
 }
 
 p {
     font-family: "americane", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 /* NAV */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "americane", sans-serif;
+    font-weight: 400;
+}
+
 .topnav {
     overflow: hidden;
 }
   
   /* Style the links inside the navigation bar */
 .topnav a {
-    float: right;
+    float: left;
     display: block;
     color: #221F55;
     text-align: center;
-    padding: 14px 16px;
+    padding-right: 100px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -65,7 +72,7 @@ p {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 840px) {
     .topnav a {display: none;}
     .topnav a.icon {
       float: right;
@@ -73,10 +80,10 @@ p {
     }
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 840px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
-      position: absolute;
+      position: relative;
       right: 0;
       top: 0;
     }
@@ -88,14 +95,39 @@ p {
   }
 
   /* IMAGES */
-.logoimg {
-    width: 100%;
-    max-width: 100px;
-    max-height: 100px;
-}
   
 .heroimg {
     width: 100%;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
+    padding-right: 10px;
+    padding-top: 50px;
+}
+
+
+/* PAGE INTRO */
+.intro {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hookdescript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 430px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+h2.hook {
+    font-size: 80px;
+    margin: 0;
+    line-height: 80px;
+}
+
+.descript {
+    padding-top: 20px;
 }
