@@ -5,19 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.typekit.net/sky4hsf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>BookMark</title>
 </head>
 <body>
-    <h1>BookMark</h1>
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Progress Platform</a></li>
-            <li><a href="#">Prototype</a></li>
-            <li><a href="#">Research Archive</a></li>
-            <li><a href="#">Citations</a></li>
-        </ul>
+    <div class="logo">
+        <a href="#"><img class="logoimg" src="images/bookmark-logo.png"></a>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="active">Home</a>
+        <a href="https://www.figma.com/proto/WekJ0vLgxAKuHZPm5eEo7M/BookMark---Capstone?node-id=0-242&starting-point-node-id=0%3A242&t=z9hqRedtojxl6UOl-1">Prototype</a>
+        <a href="https://bookmark-notes.tumblr.com/">Progress Platform</a>
+        <a href="#">Citations</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+    <img class="heroimg" src="images/webpage-image.png" alt="Open book icon coming out of an iPhone.">
     <h2>A digital notebook for book notes.</h2>
-    <p>Description description desecription, description. Description description desecription, description. Description description desecription, description. Description description desecription, description. Description description desecription, description. Description description desecription, description. Description description desecription, description. </p>
     
 </body>
 </html>
