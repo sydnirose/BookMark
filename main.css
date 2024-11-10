@@ -21,7 +21,7 @@ font-style: normal;
 
 /* HEADINGS/SUBHEADINGS */
 h1 {
-    font-size: 70px;
+    font-size: 57px;
     margin: 0;
 }
 
@@ -130,4 +130,10 @@ h2.hook {
 
 .descript {
     padding-top: 20px;
+}
+
+/* CITE / BIB PAGE */
+.title {
+  font-size: 46px;
+  padding-top: 30px;
 }
