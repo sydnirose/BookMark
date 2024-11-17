@@ -32,12 +32,12 @@ body {
     font-style: normal;
     color: #221F55;
     background-color: #DFDFDF;
-    margin: 0px 50px;
+    margin: 0px 55px;
 }
 
 p {
     font-family: "americane", sans-serif;
-
+    font-size: 18px;
 }
 
 /* NAV */
@@ -106,10 +106,12 @@ p {
 
 .cleanbook {
   width: 100%;
+  max-width: 1000px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 45px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 
@@ -138,6 +140,7 @@ h2.hook {
 
 .descript {
     padding-top: 20px;
+    font-size: 20px;
 }
 
 
@@ -157,11 +160,33 @@ p.the-idea {
 }
 
 
+/* THE PROBLEM */
+.problem-statement {
+  max-width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+h2.problem-statement {
+  text-align: center;
+  font-size: 38px;
+  line-height: 40px;
+  margin: 0;
+}
+
+
+/* UX DESIGN */
+
+
 /* CITE / BIB PAGE */
 .title {
   font-size: 46px;
   padding-top: 30px;
+  max-width: 600px;
 }
+
 
 /* FOOTER */
 .footer {
