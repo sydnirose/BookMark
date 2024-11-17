@@ -104,6 +104,16 @@ p {
     padding-top: 50px;
 }
 
+.cleanbook {
+  width: 100%;
+  max-width: 900px;
+  max-height: 900px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+}
+
 
 /* PAGE INTRO */
 .intro {
@@ -132,8 +142,30 @@ h2.hook {
     padding-top: 20px;
 }
 
+
+/* THE BEGINNING */
+.callouts {
+  font-size: 55px;
+  margin: 0;
+  padding-top: 155px;
+  line-height: 60px;
+  font-family: "larken", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+p.the-idea {
+  padding-top: 20px;
+}
+
+
 /* CITE / BIB PAGE */
 .title {
   font-size: 46px;
   padding-top: 30px;
+}
+
+/* FOOTER */
+.footer {
+  padding-top: 120px;
 }
