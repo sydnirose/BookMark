@@ -106,8 +106,6 @@ p {
 
 .cleanbook {
   width: 100%;
-  max-width: 900px;
-  max-height: 900px; 
   display: block;
   margin-left: auto;
   margin-right: auto;
