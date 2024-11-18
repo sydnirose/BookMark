@@ -32,7 +32,7 @@ body {
     font-style: normal;
     color: #221F55;
     background-color: #DFDFDF;
-    margin: 0px 55px;
+    margin: 15px 75px;
 }
 
 p {
@@ -177,11 +177,14 @@ p.bodycopy {
 
 /* THE PROBLEM */
 .callouts {
+  background-color: #868CC5;
   max-width: 900px;
+  border-radius: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  margin-top: 90px;
+  padding: 25px 15px;
 }
 
 h2.callouts {
