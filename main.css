@@ -104,7 +104,7 @@ p {
     padding-top: 50px;
 }
 
-.cleanbook {
+.uxdesign-hero, .cleanbook {
   width: 100%;
   max-width: 1000px;
   display: block;
@@ -112,6 +112,21 @@ p {
   margin-right: auto;
   padding-top: 40px;
   padding-bottom: 30px;
+}
+
+.uxdesign-images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.uxd-img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px
 }
 
 
@@ -145,7 +160,7 @@ h2.hook {
 
 
 /* THE BEGINNING */
-.callouts {
+.title {
   font-size: 55px;
   margin: 0;
   padding-top: 155px;
@@ -155,21 +170,21 @@ h2.hook {
   font-style: normal;
 }
 
-p.the-idea {
+p.bodycopy {
   padding-top: 20px;
 }
 
 
 /* THE PROBLEM */
-.problem-statement {
+.callouts {
   max-width: 900px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
-h2.problem-statement {
+h2.callouts {
   text-align: center;
   font-size: 38px;
   line-height: 40px;
@@ -178,10 +193,17 @@ h2.problem-statement {
 
 
 /* UX DESIGN */
+figure.uxd-img {
+  font-family: "americane", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* REBRANDING */
 
 
 /* CITE / BIB PAGE */
-.title {
+.cite-name {
   font-size: 46px;
   padding-top: 30px;
   max-width: 600px;
