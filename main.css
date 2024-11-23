@@ -114,7 +114,7 @@ p {
   padding-bottom: 30px;
 }
 
-.uxdesign-images {
+.app-images, .logo-images, .uxdesign-images {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -126,6 +126,20 @@ p {
   max-width: 300px;
   border-radius: 10px;
   margin-top: 15px;
+  margin-bottom: 5px
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px
+}
+
+.app-img {
+  width: 100%;
+  max-width: 400px;
   margin-bottom: 5px
 }
 
