@@ -104,7 +104,7 @@ p {
     padding-top: 50px;
 }
 
-.uxdesign-hero, .cleanbook {
+.marketing-hero, .uxdesign-hero, .cleanbook {
   width: 100%;
   max-width: 1000px;
   display: block;
@@ -114,7 +114,7 @@ p {
   padding-bottom: 30px;
 }
 
-.app-images, .logo-images, .uxdesign-images {
+.dynamic-images, .app-images, .logo-images, .uxdesign-images {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -129,7 +129,7 @@ p {
   margin-bottom: 5px
 }
 
-.logo-img {
+.dynamic-img, .logo-img {
   width: 100%;
   max-width: 800px;
   border-radius: 10px;
