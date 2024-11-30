@@ -173,6 +173,26 @@ p {
   padding: 25px 0px;
 }
 
+.comp-video-smaller {
+  width: 100%;
+  max-width: 578px;
+  padding: 25px 0px;
+}
+
+.video-container {
+  position: relative;
+}
+
+.title-label {
+  position: absolute;
+  top: 38px;
+  left: 16px;
+  font-family: "americane", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
 
 /* PAGE INTRO */
 .intro {
