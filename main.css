@@ -32,7 +32,7 @@ body {
     font-style: normal;
     color: #221F55;
     background-color: #DFDFDF;
-    margin: 15px 25px;
+    margin: 15px 75px;
 }
 
 p {
@@ -94,7 +94,7 @@ p {
     }
   }
 
-  /* IMAGES */
+/* IMAGES */
   
 .heroimg {
     width: 100%;
@@ -130,6 +130,7 @@ p {
 }
 
 .hp-img {
+  width: 100%;
   max-width: 500px;
   border-radius: 10px;
   margin-top: 15px;
@@ -190,7 +191,7 @@ p {
   font-family: "americane", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
