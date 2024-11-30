@@ -291,10 +291,15 @@ figure.uxd-img {
 
 
 /* CITE / BIB PAGE */
-.cite-name {
+
+.bib-title {
   font-size: 46px;
-  padding-top: 30px;
-  max-width: 600px;
+  padding-top: 80px;
+}
+
+.bib-content {
+  display: flex;
+  flex-direction: column;
 }
 
 
